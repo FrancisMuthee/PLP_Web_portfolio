@@ -1,0 +1,30 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    display: flex;
+    list-style-type: none;
+    /* margin-left: 5rem; */
+    /* margin: 2rem; */
+     }
+     h3{
+        text-transform: uppercase;
+     }
+
+     li{
+        padding: 1rem;
+        font-weight: 800;
+        font-size: larger;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    .home{
+        text-align: center;
+    }
+    img{
+        width: 50%;
+        height: 50%;
+        
+    }
+    
