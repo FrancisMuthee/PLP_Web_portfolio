@@ -1,3 +1,6 @@
+:root{
+    background-color: aquamarine;
+}
 .navbar{
     position: fixed;
     top: 0;
@@ -27,4 +30,10 @@
         height: 50%;
         
     }
+    .page{
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
     
