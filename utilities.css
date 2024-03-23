@@ -35,6 +35,12 @@
     margin-top: -15rem;
 }
 
+.btn-primary:hover{
+    background: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
 .flex-1{
     flex: 1;
 }
