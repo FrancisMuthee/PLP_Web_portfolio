@@ -13,7 +13,9 @@
     -webkit-font-smoothing: antialiased;
 }
 header{
-    background-color: var(--bgDark);
+    /* background-color: red; */
+    background-image: url(images/tech.jpeg);
+    background-size: cover;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
 }
 header nav .left a{
