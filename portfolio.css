@@ -33,43 +33,46 @@ header nav {
 header nav .logo{
     margin-right: 3rem;
 }
-/* .navbar{
-    position: fixed;
-    top: 0;
-    right: 0;
-    display: flex;
-    list-style-type: none; */
-    /* margin-left: 5rem; */
-    /* margin: 2rem; */
-/*      
-     h3{
-        text-transform: uppercase;
-     }
 
-     li{
-        padding: 1rem;
-        font-weight: 800;
-        font-size: larger;
-        text-decoration: none;
-        text-transform: uppercase;
-    }
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
-    .home{
-        text-align: center;
-    }
-    img{
-        display: flex;
-        width: 50%;
-        height: 50%;
-        
-    }
-    .page{
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
+.hero{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
 
-    
+.hero .left img {
+    width: 400px;
+}
        
+.hero .right {
+    color: var(--white);
+    margin-top: -7rem;
+}
 
-    
+.hero .right h6 {
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+
+}
+
+.hero .right h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h1 span {
+    color: var(--primary);
+}
+
+.hero .right p {
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
