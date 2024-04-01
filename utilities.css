@@ -42,7 +42,8 @@
 }
 
 .flex-1{
-    flex: 1;
+    margin-left: 50px;
+    /* flex: 0.5; */
 }
 
 .btn-secondary {
