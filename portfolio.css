@@ -211,3 +211,38 @@ section.services .card-grid .card:hover h2{
 section.services .card-grid .card:hover p {
     color: var(--white);
 }
+
+
+
+/* ------responsive------- */
+/* .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+} */
+
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+
+.nav-active {
+    display: block;
+}
+
+
+footer {
+    padding: 20px;
+}

@@ -24,6 +24,7 @@
                         <!-- <img src="images/Mr Nobody..jpg" width="100px" alt="logo"> -->
                     </div>
                     <div>
+                        <span id="close-menu-btn" class="material-symbols-outlined">Close</span>
                         <a href="#home">Home</a>
                         <a href="#about">About Me</a>
                         <a href="#projects">Projects</a>
@@ -115,5 +116,22 @@
     <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Ceesco 2023</p></div>
 </footer><br>
 <!-- ------footer------ -->
+<script>
+    const header = document.querySelector("header");
+    const hamburgerBtn = document.querySelector("#hamburger-btn");
+
+// Toggle mobile menu on hamburger button click
+hamburgerBtn.addEventListener("click", () => {
+    // Check if the menu is currently shown
+    if (header.classList.contains("show-mobile-menu")) {
+        // If it is, hide it
+        header.classList.remove("show-mobile-menu");
+    } else {
+        // If it's not, show it
+        header.classList.add("show-mobile-menu");
+    }
+});
+</script>
 </body>
+</html>
     
