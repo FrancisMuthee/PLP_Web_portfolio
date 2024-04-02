@@ -213,36 +213,18 @@ section.services .card-grid .card:hover p {
 }
 
 
-
-/* ------responsive------- */
-/* .container {
-    width: 80%;
-    margin: 0 auto;
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    body {
+        font-size: 14px;
+     }
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-} */
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) 
 
-@media (max-width: 768px) {
-    .flex {
-        flex-direction: column;
-    }
-}
+/* // Medium devices (tablets, less than 992px) */
+/* @media (max-width: 991.98px) */
 
-@media (max-width: 768px) {
-    h1 {
-        font-size: 2rem;
-    }
-}
-
-
-.nav-active {
-    display: block;
-}
-
-
-footer {
-    padding: 20px;
-}
+/* // Large devices (desktops, less than 1200px) */
+/* @media (max-width: 1199.98px)  */
