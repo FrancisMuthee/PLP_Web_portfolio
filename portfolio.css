@@ -16,7 +16,7 @@ header{
     /* background-color: red; */
     background-image: url(images/unnamed.jpg);
     background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%); */
 }
 header nav .left a{
     columns: var(--white);
@@ -212,16 +212,42 @@ section.services .card-grid .card:hover p {
     color: var(--white);
 }
 
+@media (max-width: 480px){
+    header{
+        margin-right: -3rem;
+    }
+    header nav .left a{
+        columns: var(--white);
+        text-decoration: none;
+        color: aliceblue;
+        /* margin-right: 2rem; */
+        margin-left: -5rem;
+        margin-right: 4.8rem;
+        font-size: 12px;
+        text-transform: uppercase;
+        transition: all 0.2s ease;
+    }
+    header nav {
+        margin-left: -3rem;
+    }
+    .btn{
+        padding: -5rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+    
+}
 
 /* // Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+/* @media (max-width: 575.98px) {
     body {
         font-size: 14px;
      }
-}
+} */
 
 /* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) 
+/* @media (max-width: 767.98px)  */
 
 /* // Medium devices (tablets, less than 992px) */
 /* @media (max-width: 991.98px) */

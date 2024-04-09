@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <h2>Notes</h2>
+    <P>dom is a data representation of objects</P>
+    <p>Events: This are actions/triggers/signals that happen in the browser.</p>
+    <p>They can be triggered by user interactions</p>
+    <p>They include, click, mouse hover, data inputs.</p>
+
+    <h3>Most common:Click, keyboard events, loading events, form events.</h3>
+    <p id="p_one">Hello, Welcome to my web page</p>
+    <button id="btn_one" name="btn_one" class="btn_one">Change text</button>
+</body>
+<script>
+    var btn = document.getElementById('btn_one');
+
+    function changeText(event){
+        console.log(event);
+        var txt = document.getElementById('p_one');
+        txt.innerText = 'I have changed this!';
+    }
+    btn.addEventListener('click', changeText); 
+
+document.addEventListener('keydown', event => {
+    console.log(event);
+    console.log('you pressed ' + event.key);
+});
+
+document.addEventListener('mousedown', event =>{
+    console.log(event);
+    console.log('You pressed ' + event.key);
+})
+    
+    /*
+    Inner text is aproperty.
+    Add event listener takes two parameters event and function
+    var btn = document.getElementByName('btn_one');
+    var btn = document.getElementByClassName('btn_one');
+    var btn = document.getElementById('btn_one');
+    var btn = document.querySelector('#btn_one');id
+    var btn = document.getElementById('.btn_one');class 
+    */
+</script>
+
+</html>
