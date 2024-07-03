@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:wght@100;300&family=Sofia&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    
+</head>
+<body>
+
+
+    <header>
+        <div class="container">
+            <nav class="flex items-centre justify-between">
+                <div class="left flex justify-right">
+                    <div class="logo">
+                        <!-- <img src="images/Mr Nobody..jpg" width="100px" alt="logo"> -->
+                    </div>
+                    <div>
+                        <span id="close-menu-btn" class="material-symbols-outlined">Close</span>
+                        <a href="#home">Home</a>
+                        <a href="#about">About Me</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#services">Skills</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <button class = "btn btn-primary">Contact</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+<section class="home">
+    <div class="hero flex items-centre justify-between">
+        <div class="left flex-1 justify-center">
+            <img src="images/franko.jpg" alt="profile">
+        </div>
+        <div class="right flex-1">
+            <h6>Francis Muthee</h6>
+            <h1>
+                Software <br>
+                <span>Developer</span>
+            </h1>
+            <p>I build softwares an analyze data that the software collects. I'm a statistician by profession and a developer by self-pacing myself with the enthusiasmof a technologist. It's a industrialized world and autimation is the deal baseline.</p>
+        </div>
+        <!-- <button class="btn btn-secondary">Download CV</button> -->
+        </div>
+        </div>
+    </section>    
+        
+
+
+    <section class="about">
+        <div class="container flex items-centre">
+            <div class="left flex-1 justify-right">
+                <img src="images/Mr Nobody..jpg" height="400px" alt="profile pic" />
+            </div>
+            <div class="right flex-1">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello! I'm Francis Muthee</h3>
+                <p>
+                    I'm passionate developer,eager to transform and own the world with softwares that match our needs.
+                </p>
+                <div class="socials">
+                    <a href="#" ><img src="images/whatsapp.webp" width="40px" /></a>
+                    <a href="#" ><img src="images/twitter.png" width="40px" /></a>
+                    <a href="jupyter.html" ><img src="images/gmail.png" width="40px" /></a>
+                    <a href="#" ><img src="" width="40px" /></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="services">
+        <div class="container">
+            <h1 class="services-head">Services</h1>
+            <p>Let's look at the data first!</p>
+            <div class="card-grid">
+                <div class="card">
+                    <img src="" />
+                    <h2>Statistician</h2>
+                    <p>
+                        <!-- Satisfactorily certified by UoN to conduct statustical anaysis using Excel & SPSS. -->
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="" />
+                    <h2>Web Developer</h2>
+                    <p>
+                        <!-- Self-paced mercenary utilizing HTML, CSS & JavaScript to work wonders in sites. -->
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="" />
+                    <h2>Database Administrator</h2>
+                    <p>
+                        <!-- Using Python and SQL, I am able to work with data in the database. -->
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------footer------ -->
+<footer class="py-5 bg-dark">
+    <div class="container px-4 px-lg-5"><p class="m-0 text-center text-white">Copyright &copy; Ceesco 2023</p></div>
+</footer><br>
+<!-- ------footer------ -->
+<script>
+    const header = document.querySelector("header");
+    const hamburgerBtn = document.querySelector("#hamburger-btn");
+
+// Toggle mobile menu on hamburger button click
+hamburgerBtn.addEventListener("click", () => {
+    // Check if the menu is currently shown
+    if (header.classList.contains("show-mobile-menu")) {
+        // If it is, hide it
+        header.classList.remove("show-mobile-menu");
+    } else {
+        // If it's not, show it
+        header.classList.add("show-mobile-menu");
+    }
+});
+</script>
+</body>
+</html>
+    
